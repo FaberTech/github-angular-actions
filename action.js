@@ -7,5 +7,5 @@ function execute(command) {
      process.stdout.write(stdout)
    })
  }
- execute("npm install -g @angular/cli")
+ execute("npm install -g @angular/cli@13")
  execute("npm install -g protractor")
